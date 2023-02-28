@@ -9,13 +9,16 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './index.css';
 import AuthContextProvider from './Context/AuthContext';
 import MediaContextProvider from './Context/MediaContext';
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AuthContextProvider>
     <MediaContextProvider>
     <React.StrictMode>
-    <App />
+      <HashRouter>
+      <App />
+      </HashRouter>
   </React.StrictMode>
     </MediaContextProvider>
   </AuthContextProvider>
