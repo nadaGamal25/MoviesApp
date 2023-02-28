@@ -56,7 +56,7 @@ function App() {
   <div>
     <Offline><div className="offline">you are offline</div></Offline>
   </div>
-  <RouterProvider router={routers}/>
+  <RouterProvider router={routers} basename="/MoviesApp"/>
   
 </> 
   );
