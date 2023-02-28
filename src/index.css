@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* --bg-color:#131722;   --light-bg:#24baef;   background-color: rgba(30, 41, 82, 0.2); */
+
+:root{
+  --bg-color:#000;
+  --main-font: 'Montserrat', sans-serif;
+  --light-bg:#24baef;
+  --font-color:#fff;
+  --heading-color: #cc0000
+  ;
+}
+*{
+  margin: 0 !important;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: var(--main-font) !important;
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+.maxWidth{
+  max-width: 100% !important;
+}
+a{
+  color: var(--font-color) !important;
+  text-decoration: none !important;
+}
+.navbar{
+  background-color: #0d0d0d ;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+.navbar-brand{
+  color: var(--heading-color) !important;
+}
+.nav-link:hover{
+  color: var(--heading-color) !important;
+}
+.nav-link:focus{
+  color: var(--heading-color)!important;
+}
+.my-input{
+  background-color: transparent !important;
+  border: solid 1px #a8a8a83d !important;
+  color: #fff !important;
+}
+.offline{
+  background-color: var(--bg-color);
+  box-shadow: 10px 10px 10px #fff;
+  padding: 30px;
+  position: fixed;
+  left: 50px;
+  bottom: 50px;
+  z-index: 9999;
+}
+.vote{
+  background-color: var(--heading-color);
+}
+.caption-home{
+  background-image: url(../movies2.png);
+  background-size: 100% 100%;
+}
+.overlay-caption{
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.overlay-caption span{
+  color: var(--heading-color);
+  font-weight: 900;
+
+}
+.movie h2{
+  position: relative;
+}
+.movie h2::before{
+  position: absolute;
+  top:-30%;
+  content: '';
+  width:120px ;
+  height: 1px;
+  background-color: #a8a8a83d;
+}
+.movie p{
+  border-bottom: #a8a8a83d 1px solid;
+  padding-bottom: 15px !important;
+  margin-bottom: 10px !important;
+}
+.fa-brands:hover{
+  color:#fff;
+}
+.alert-danger{
+  background-color: transparent !important;
+  color:  #800000  !important;
+  border: none !important;
+  padding: 2px !important;
+}
+.sign{
+  box-shadow: 1px 1px 10px rgba(182, 154, 154, 0.5);
+}
+.sign-footer p{
+  color: #a8a8a83d !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+.sign-link{
+  color:#800000 !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 19px;
+
+}
+.btn-sign{
+  background-color:  #990000  !important;
+  transition: all 0.3s;
+  color: #fff !important;
+}
+.btn-sign:hover{
+  background-color:   #800000  !important ;
+}
+.profile h1{
+  color:  #4d0000  ;
+}
+.profile h3{
+  padding-bottom: 15px;
+}
+.profile span{
+  color:#d4cecef6;
+}
+.navbar-toggler{
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.txtgrey span{
+  color:#d4cecef6;
+
+}
